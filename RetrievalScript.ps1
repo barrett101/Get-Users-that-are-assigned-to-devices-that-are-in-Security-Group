@@ -1,7 +1,7 @@
 #Importing of Modules Required
-Connect-MGGraph
 Install-Module Microsoft.Graph -Scope AllUsers
 Import-Module Microsoft.Graph.DeviceManagement
+Connect-MGGraph
 
 #Enter the Group ID in the below variable
 $GroupID = ""
